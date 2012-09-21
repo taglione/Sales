@@ -33,6 +33,8 @@ public class CarrinhoTest {
 		assertArrayEquals(new Object[] { livro }, new Object[] { menor });
 	}
 
+        
+        //Teste
 	@Test
 	public void colocandoMaisProdutos() throws CarrinhoVazioExpected {
 		Produto livro = new Produto("Java em 24 horas", 50.00);
